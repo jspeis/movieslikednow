@@ -1,3 +1,5 @@
 Movies Liked Now
 
 This app built using Flask, Bootstrap and Twitter API (tweepy), simply searches Twitter for tweets about movies people may like and displays them.
+
+To install tweepy: pip install tweepy
