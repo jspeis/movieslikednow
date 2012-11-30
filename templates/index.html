@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Movies People Like on Twitter</title>
+</head>
+<body>
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
+<div class="navbar">
+<div class="navbar-inner">
+<a class="brand" href="#">Movies that People Like Right Now</a>
+</div></div>
+<table class="table table-striped">
+{% for x in tweets %}
+<tr><td>
+{{ x }}
+</td></tr>
+{% endfor %}
+</table>
+</body>
+</html>
